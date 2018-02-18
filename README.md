@@ -17,6 +17,8 @@ And command-line arguments:
   * `<assignment>` This is the name of the sub-directory in the grading path directory containing this assignment's template. The program can only be run on one assignment template at a time.
   * `-d` flag, if set  will generate a sub-directory for each student in the assignment directory
 
+The template file must be named `template.txt` and be in the top level of the directory in `GRADING_PATH`.
+
 From the command line:    
 `python3 gen_template.py <assignment> -d` or   
 `python3 gen_template.py <assignment>`
